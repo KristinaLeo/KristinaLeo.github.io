@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <script src="scrollreveal.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+        <link rel = "stylesheet" type = "text/css" href = "animate.css">
+        <link rel = "stylesheet" type = "text/css" href = "grid.css">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600&display=swap" rel="stylesheet">
+        
+        <script>
+        $(document).ready(function(){
+        $("a").on('click', function(event) {
+            if (this.hash !== "") {
+              event.preventDefault();
+              var hash = this.hash;
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+                window.location.hash = hash;
+      });
+    }
+  });
+});
+        </script>
+    </head>
+    
+    <body>
+        <title>kristina leo</title>
+        <header>
+            <nav  id = "top">
+                <div class = "row">
+                    <img src = "img/newlogo.png" alt = "logo" class = "logo">
+                    <ul class = navigation>
+                        <li class = "navbar"><a href = "#objective">objective</a></li>
+                        <li class = "navbar"><a href = "#education">education</a></li>
+                        <li class = "navbar"><a href = "#projects">projects</a></li>
+                        <li class = "navbar"><a href = "#contact">contact me</a></li>
+                    </ul>
+                </div>
+                <div class = "row">
+                    <h1 class = "name">kristina leo</h1>
+                    <p class = "onewords">"it always seems impossible until it's done" &mdash; nelson mandela</p>
+                    <img src = "img/scroll.png" alt = "scrollbtn" class = "animated fadeIn slow animation scroller" id = "scrolr">
+                </div>
+            </nav>
+        </header>
+
+        <script>
+            ScrollReveal().reveal('.name', {duration: 4000});
+            ScrollReveal().reveal('.onewords', {duration: 7000});
+            ScrollReveal().reveal('.scroller');
+        </script>
+
+        <section class = "sections">
+            <div class = "row objective"  id ="objective">
+                <h2 class = "animated bounce slow animation">objective</h2>
+            </div>
+            <div class = "row">
+                <div class = "col span-1-of-2">
+                    <img src = "img/headshot.png" alt = "profilepicture" class = "me">
+                </div>
+
+                <div class = "col span-1-of-2 metxt">
+                    <div class = "verticalLine metxt">
+                    <p>hi! i'm kristina, a senior at san josé state university. I am studying to achieve
+                    my bachelor's degree in computer science with a focus in ui/ux.</p>
+                    </div>
+                    <div class = "verticalLine metxt">
+                    <p>post graduation, i will be looking for a job in the bay area. please reach out to me 
+                    if you think i would fit in with your team!</p>
+                    </div>
+                    <div class = "verticalLine metxt">
+                    <p>knowledge: java, html/css/js, php, mysql, c, adobe cc (xd, indesign, illustrator).</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "row dark education" id = "education">
+                <h2 class = "animated bounce slow animation">education</h2>
+            </div>
+            <div class = "row dark education">
+                <div class = "col span-1-of-2 txt">
+                    <h3>City College of San Francisco</h3>
+                    <h4>2016 &mdash; 2018</h4>
+                    <h4> A.S. Computer Science, A.S. Science &amp; Math</h4>
+                    <li class = "crsewk">intro unix/linux</li>
+                    <li class = "crsewk">calculus I, II, III</li>
+                    <li class = "crsewk hi">discrete mathematics</li>
+                </div>
+                <div class = "col span-1-of-2 txt">
+                    <h3>San José State University</h3>
+                    <h4>2018 &mdash; 2020</h4>
+                    <h4> B.S. Computer Science</h4>
+                    <li class = "crsewk">data structures</li>
+                    <li class = "crsewk">object oriented design</li>
+                    <li class = "crsewk">server side web programming</li>
+                    <li class = "crsewk hi">operating systems</li>
+                </div>
+            </div>
+
+            <div class = "row projects" id = "projects">
+                <h2 class = "animated bounce slow animation">projects</h2>
+            </div>
+            
+            <div class = "row">
+                <div class = "col span-1-of-3 prjimg">
+                    <img src = "img/googlesim.png" alt = "googlesim">
+                </div>
+                
+                <div class = "col span-1-of-3 prjimg">
+                    <img src = "img/webpg.png" alt = "sampleweb">
+                </div>
+                
+                <div class = "col span-1-of-3 prjimg">
+                    <img src = "img/todo.png" alt = "todolist">
+                </div>
+            
+            
+            </div>
+            <div class = "row">
+                <div class = "col span-1-of-3 prj1">
+                <h3 class = "prj1">Google Engine Simulator</h3>
+                <h4 class = "prj1">java (data structures)</h4>
+                    <li class = "crsewk project"><b>features:</b> uses a web crawler and allows users to enter a URL, keyword to search, and distributed page rank. choose from a menu to sort with varieties of sorting algorithms, red-black and binary trees, linked lists, priority queues. </li>
+                </div>
+
+                <div class = "col span-1-of-3 prj2">
+                <h3>Personal Website</h3>
+                <h4>html/css/js</h4>
+                    <li class = "crsewk project"><b>features:</b> about me, designs and projects, my resume, amongst other things!</li>
+                    <li class = "crsewk project">the website is in progress, but feel free to check back in for any changes :)</li>
+                </div>
+
+                <div class = "col span-1-of-3 prj3">
+                <h3>To-Do Calendar</h3>
+                <h4>java (ood)</h4>
+                    <li class = "crsewk project"><b>features:</b> use of java swing to create a usable interface that allows users to search through the gregorian calendar and create events for specific days. uses the jdatepicker library and modified.</li>
+                </div>
+            </div>
+
+            <div class = "row dark" id = "contact">
+                <h2 class = "animated bounce slow animation">contact me</h2>
+            </div>
+            <div class = "row dark contact">
+                <div class = "col span-1-of-4 contacts">
+                    <a href = "https://github.com/KristinaMLeo" target ="_blank" ><img src = "img/githubicon.svg" alt = "githubicon"></a>
+                </div>
+
+                <div class = "col span-1-of-4 contacts">
+                    <a href = "mailto:kristina.leo.15@gmail.com?" target = "_top"><img src = "img/gmail.png" alt = "gmail"></a>
+                </div>
+
+                <div class = "col span-1-of-4 contacts">
+                    <a href = "https://www.linkedin.com/in/kristinaleo/" target ="_blank"><img src = "img/linkedin.png" alt = "linkedin"></a>
+                </div>
+
+                <div class = "col span-1-of-4 contacts" id = "number">
+                    <img src = "img/phone.png" alt = "contact" class = "hover">
+                    <p class = "phone">415-602-7181</p>
+
+                </div>
+            </div>
+
+            <footer>
+            <div class = "row foot">
+                <a href = "#top"><p>back to top</p></a>
+            </div>
+        </footer>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,182 @@
+*{
+    font-family: 'Crimson Text', serif;
+    margin:0;
+}
+
+body {
+    background-color:#fff;
+}
+
+h1 {
+    font-size: 64px;
+    text-align:center;
+    margin-top: 25vh;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: #aec6d3;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #000;
+    text-align: center;
+}
+
+h4 {
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    line-height: 1px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.onewords {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.scroller {
+    width: 4%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.verticalLine {
+    border-left: solid #000;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.heading {
+    background-color: #fcfcfc;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.7)), url(img/marble.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment:fixed;
+
+}
+
+.navigation {
+    float:right;
+    margin-top: 50px;
+    display:inline-block;
+}
+
+.navigation li a:link,
+.navigation li a:visited {
+        text-decoration: none;
+        color:#fff;
+        margin-right: 50px;
+}
+
+.navigation li a:hover {
+    font-size: 18px;
+    color: #aec6d3;     /* grey */
+    transition: font-size 0.5s;
+    transition: color 0.5s;
+}
+
+.navbar {
+    display:inline-block;     
+    text-decoration: none;
+}
+
+.logo {
+    width: 10%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.me {
+    width: 40%;
+    border-radius: 50%;
+    margin-left: 200px;
+}
+
+.metxt p {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 65px;
+}
+
+.dark {
+    background-color: #fcfcfc;
+}
+
+.crsewk {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.hi {
+    margin-bottom: 50px;
+}
+
+.project {
+    margin-bottom: 50px;
+}
+
+.prjimg img {
+    width:400px;
+}
+
+.prjimg {
+    height:auto;
+    max-height: 100px;
+    overflow:scroll;
+}
+
+.contacts {
+    text-align: center;
+    background-color: #fcfcfc;
+}
+
+.contacts img {
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+#number .phone {
+    position:relative;
+    visibility: hidden;
+}
+
+#number:hover .phone {
+    visibility: visible;
+}
+
+footer {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)), url(img/marble.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+    background-attachment:fixed;
+}
+
+footer p {
+    color: #fff;
+    margin-top: 17px;
+    text-align:center;
+}
+
+.foot a:link, a:visited {
+    text-decoration: none
+}
