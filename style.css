@@ -12,6 +12,7 @@ h1 {
     text-align:center;
     margin-top: 25vh;
     padding: 5px;
+    color: #fff;
 }
 
 h2 {
@@ -21,7 +22,7 @@ h2 {
     margin-left: 35px;
     margin-top: 15px;
     margin-bottom: 35px;
-    color: #aec6d3;
+    color: #a1bea9;
 }
 
 h3 {
@@ -43,6 +44,7 @@ h4 {
 .onewords {
     text-align: center;
     margin-bottom: 90px;
+    color: #cdcece;
 }
 
 .scroller {
@@ -63,7 +65,7 @@ h4 {
 }
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.7)), url(img/marble.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.7)), url(img/wood.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -97,7 +99,7 @@ header {
 }
 
 .logo {
-    width: 10%;
+    width: 20%;
     margin-top: 30px;
     margin-left: 50px;
 }
@@ -164,7 +166,7 @@ header {
 }
 
 footer {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)), url(img/marble.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)), url(img/leaves.jpg);
     background-size: cover;
     background-position: center;
     height: 10vh;
@@ -179,4 +181,13 @@ footer p {
 
 .foot a:link, a:visited {
     text-decoration: none
+}
+
+
+.boba {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
