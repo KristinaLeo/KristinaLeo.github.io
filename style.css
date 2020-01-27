@@ -27,7 +27,8 @@ h2 {
 
 h3 {
     font-size: 18px;
-    margin-bottom: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: #000;
     text-align: center;
 }
@@ -112,8 +113,12 @@ header {
 
 .metxt p {
     margin-top: 15px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 65px;
+}
+
+ion-icon {
+    font-size:36px;
 }
 
 .dark {
@@ -190,4 +195,9 @@ footer p {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+.disney {
+    margin-left: 50px;
+    margin-right: 50px;
 }
